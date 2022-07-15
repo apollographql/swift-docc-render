@@ -16,12 +16,6 @@
     }]"
     :style="styles"
   >
-    <div class="icon">
-      <NavigatorLeafIcon
-        v-if="enhanceBackground" :type="type"
-        key="first" class="background-icon first-icon" with-colors
-      />
-    </div>
     <div class="documentation-hero__above-content">
       <slot name="above-content" />
     </div>
@@ -36,14 +30,12 @@
 
 <script>
 
-import NavigatorLeafIcon from 'docc-render/components/Navigator/NavigatorLeafIcon.vue';
 import { TopicTypes, TopicTypeAliases } from 'docc-render/constants/TopicTypes';
 import { HeroColorsMap, HeroColors } from 'docc-render/constants/HeroColors';
 import { TopicRole } from 'docc-render/constants/roles';
 
 export default {
   name: 'DocumentationHero',
-  components: { NavigatorLeafIcon },
   props: {
     role: {
       type: String,
@@ -92,17 +84,17 @@ export default {
 <style scoped lang='scss'>
 @import 'docc-render/styles/_core.scss';
 
-$doc-hero-gradient-background: dark-color(fill-tertiary) !default;
+$doc-hero-gradient-background: var(--color-fill-tertiary) !default;
 $doc-hero-overlay-background: transparent !default;
 $doc-hero-icon-opacity: 1 !default;
-$doc-hero-icon-color: dark-color(fill-secondary) !default;
+$doc-hero-icon-color: var(--color-fill-secondary) !default;
 $doc-hero-icon-spacing: 25px;
 $doc-hero-icon-vertical-spacing: 10px;
 $doc-hero-icon-dimension: 250px;
 
 .documentation-hero {
-  background: dark-color(fill);
-  color: dark-color(figure-gray);
+  background: var(--color-fill-secondary);
+  color: var(--color-figure-gray);
   overflow: hidden;
   text-align: left;
   position: relative;

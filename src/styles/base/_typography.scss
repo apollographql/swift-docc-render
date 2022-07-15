@@ -184,11 +184,29 @@ pre {
   overflow: auto;
   -webkit-overflow-scrolling: auto;
   white-space: pre;
-  word-wrap: normal;
+  word-wrap: normal;  
 }
 
 code {
   font-family: $font-mono;
   font-weight: inherit;
   letter-spacing: 0;
+}
+
+.inline-code {
+  color: var(--color-code-text-color);
+  background-color: var(--color-code-background-color);
+  padding-inline-start: 0.25rem;
+  padding-inline-end: 0.25rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.param-name code {
+  @extend .inline-code
+}
+.content code {
+  @extend .inline-code
+}
+.decorated-title code {
+  @extend .inline-code
 }

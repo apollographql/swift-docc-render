@@ -62,7 +62,7 @@
   --color-syntax-comments: rgb(127, 140, 152);
   --color-syntax-documentation-markup: rgb(127, 140, 152);
   --color-syntax-documentation-markup-keywords: rgb(163, 177, 191);
-  --color-syntax-keywords: rgb(255, 122, 178);
+  --color-syntax-keywords: rgb(173, 155, 246);
   --color-syntax-marks: rgb(255, 255, 255);
   --color-syntax-numbers: rgb(217, 201, 124);
   --color-syntax-other-class-names: rgb(218, 186, 255);
@@ -71,7 +71,7 @@
   --color-syntax-other-function-and-method-names: rgb(178, 129, 235);
   --color-syntax-other-instance-variables-and-globals: rgb(178, 129, 235);
   --color-syntax-other-preprocessor-macros: rgb(255, 161, 79);
-  --color-syntax-other-type-names: rgb(218, 186, 255);
+  --color-syntax-other-type-names: rgb(246, 135, 179);
   --color-syntax-param-internal-name: rgb(191, 191, 191);
   --color-syntax-plain-text: rgb(255, 255, 255);
   --color-syntax-preprocessor-statements: rgb(255, 161, 79);
@@ -86,4 +86,7 @@
   --color-syntax-urls: rgb(102, 153, 255);
   --color-tutorial-background: var(--color-fill-tertiary);
   --color-navigator-item-hover: #{change-color(dark-color(fill-blue), $alpha: 0.5)};
+
+  --color-code-background-color: #{dark-color(code-background)};
+  --color-code-text-color: #{dark-color(code-text-color)};
 }

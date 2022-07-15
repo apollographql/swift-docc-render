@@ -96,7 +96,7 @@
   --color-grid: var(--color-fill-gray);
   --color-header-text: var(--color-figure-gray);
   --color-hero-eyebrow: #{dark-color(figure-gray-secondary)};
-  --color-link: var(--color-figure-blue);
+  --color-link: var(--color-code-text-color);
   --color-loading-placeholder-background: var(--color-fill);
   --color-nav-color: #{light-color(figure-gray-secondary-alt)};
   --color-nav-current-link: #{change-color(light-color(figure-gray), $alpha: 0.6)};
@@ -148,7 +148,7 @@
   --color-syntax-documentation-markup: rgb(80, 99, 117);
   --color-syntax-documentation-markup-keywords: rgb(80, 99, 117);
   --color-syntax-heading: rgb(186, 45, 162);
-  --color-syntax-keywords: rgb(173, 61, 164);
+  --color-syntax-keywords: rgb(63, 32, 186);
   --color-syntax-marks: rgb(0, 0, 0);
   --color-syntax-numbers: rgb(39, 42, 216);
   --color-syntax-other-class-names: rgb(112, 61, 170);
@@ -157,7 +157,7 @@
   --color-syntax-other-function-and-method-names: rgb(75, 33, 176);
   --color-syntax-other-instance-variables-and-globals: rgb(112, 61, 170);
   --color-syntax-other-preprocessor-macros: rgb(120, 73, 42);
-  --color-syntax-other-type-names: rgb(112, 61, 170);
+  --color-syntax-other-type-names: rgb(196, 57, 151);
   --color-syntax-param-internal-name: rgb(64, 64, 64);
   --color-syntax-plain-text: rgb(0, 0, 0);
   --color-syntax-preprocessor-statements: rgb(120, 73, 42);
@@ -190,4 +190,7 @@
   --color-tutorial-hero-text: #{dark-color(figure-gray)};
   --color-tutorial-hero-background: #{dark-color(fill)};
   --color-navigator-item-hover: #{change-color(light-color(fill-blue), $alpha: 0.05)};
+
+  --color-code-background-color: #{light-color(code-background)};
+  --color-code-text-color: #{light-color(code-text-color)};
 }
