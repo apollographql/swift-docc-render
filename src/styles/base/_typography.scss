@@ -131,6 +131,10 @@ a {
   p + & {
     display: inline-block; // for top margin
   }
+
+  h5 {
+    @extend a
+  }
 }
 
 //

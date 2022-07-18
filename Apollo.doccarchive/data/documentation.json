@@ -76,13 +76,37 @@
           {
             "inlineContent" : [
               {
-                "text" : "Overview",
-                "type" : "text"
-              },
-              {
-                "identifier" : "https:\/\/github.dev\/apollographql\/apollo-tooling",
+                "identifier" : "doc://ApolloCodegenLib/documentation/Apollo",
                 "isActive" : true,
                 "type" : "reference"
+              }
+            ],
+            "type" : "paragraph"
+          },
+          {
+            "inlineContent" : [
+              {
+                "text" : "The core Apollo client library.",
+                "type" : "text"
+              }
+            ],
+            "type" : "paragraph"
+          },
+          {
+            "inlineContent" : [
+              {
+                "identifier" : "doc://ApolloCodegenLib/documentation/ApolloCodegenLib",
+                "isActive" : true,
+                "type" : "reference"
+              }
+            ],
+            "type" : "paragraph"
+          },
+          {
+            "inlineContent" : [
+              {
+                "text" : "The code generation engine used to generate model objects for an application from a GraphQL schema and operation set.",
+                "type" : "text"
               }
             ],
             "type" : "paragraph"
@@ -117,17 +141,37 @@
       }
     ],
     "references": {
-        "https://github.dev/apollographql/apollo-tooling": {
-            "identifier" : "https:\/\/github.dev\/apollographql\/apollo-tooling",
-            "title" : "apollo-tooling",
+        "doc://ApolloCodegenLib/documentation/Apollo": {
             "titleInlineContent" : [
                 {
-                "code" : "apollo-tooling",
-                "type" : "codeVoice"
+                    "anchor" : "apolloclient",
+                    "level" : 5,
+                    "text" : "Apollo",
+                    "type" : "heading"
                 }
             ],
-            "type" : "link",
-            "url" : "https:\/\/github.dev\/apollographql\/apollo-tooling"
+            "identifier" : "doc:\/\/ApolloCodegenLib\/documentation\/Apollo",
+            "kind" : "symbol",
+            "role" : "collection",
+            "title" : "Apollo",
+            "type" : "topic",
+            "url" : "\/documentation\/apollo"
+        },
+        "doc://ApolloCodegenLib/documentation/ApolloCodegenLib": {
+            "titleInlineContent" : [
+                {
+                    "anchor" : "apollocodegenlib",
+                    "level" : 5,
+                    "text" : "ApolloCodegenLib",
+                    "type" : "heading"
+                }
+            ],
+            "identifier" : "doc:\/\/ApolloCodegenLib\/documentation\/ApolloCodegenLib",
+            "kind" : "symbol",
+            "role" : "collection",
+            "title" : "ApolloCodegenLib",
+            "type" : "topic",
+            "url" : "\/documentation\/apollocodegenlib"
         }
     }
   }
