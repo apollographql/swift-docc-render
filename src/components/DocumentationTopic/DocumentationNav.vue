@@ -42,7 +42,9 @@
         >
           Documentation
         </router-link>
-        <a v-else class="nav-menu-link router-link-active" href="/documentation/">Documentation</a>
+        <a v-else class="nav-menu-link router-link-active" href="/documentation/index">
+        Documentation
+        </a>
       </slot>
     </template>
     <template #tray="{ closeNav }">
