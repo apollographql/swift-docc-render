@@ -206,8 +206,15 @@ code {
     padding-top: 0.125rem;
     padding-bottom: 0.125rem;
   }
+
   .code-listing code {
     background-color: transparent;
+  }
+
+  a {
+    &:hover {
+      text-decoration-color: var(--color-code-text-color);
+    }
   }
 }
 
@@ -226,5 +233,8 @@ code {
   @extend .inline-code
 }
 .decorated-title code {
+  @extend .inline-code
+}
+.documentation-hero.documentation-hero--disabled code {
   @extend .inline-code
 }
