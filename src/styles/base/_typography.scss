@@ -238,3 +238,7 @@ code {
 .documentation-hero.documentation-hero--disabled code {
   @extend .inline-code
 }
+
+pre > code {
+  background-color: transparent !important;
+}
